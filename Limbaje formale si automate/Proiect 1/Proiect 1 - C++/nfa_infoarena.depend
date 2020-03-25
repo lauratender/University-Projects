@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585150060 source:d:\my documents\fmi\anul i\sem ii\limbaje fundamentale si automate\nfa_infoarena\main.cpp
+	<fstream>
+	<vector>
+
