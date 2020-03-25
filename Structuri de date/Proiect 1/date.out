@@ -1,0 +1,90 @@
+test 1: 1461259 numere mai mici decat 100001
+Sortare nativa - timp: 0.5062530040740967
+Bubble sort - timp: 0.0, status: nesortat
+Count sort - timp: 0.29023218154907227, status: sortat
+Merge sort - timp: 8.704211235046387, status: sortat
+Quick sort cu pivot ales random - timp: 7.235201835632324, status: sortat
+Radix sort in baza 10 - timp: 2.2195537090301514, status: sortat
+Radix sort in baza 2 - timp: 5.894478797912598, status: sortat
+
+test 2: 979 numere mai mici decat 979
+Sortare nativa - timp: 0.0
+Bubble sort - timp: 0.0, status: sortat
+Count sort - timp: 0.004266500473022461, status: sortat
+Merge sort - timp: 0.0019631385803222656, status: sortat
+Quick sort cu pivot ales random - timp: 0.0019974708557128906, status: sortat
+Radix sort in baza 10 - timp: 0.000978708267211914, status: sortat
+Radix sort in baza 2 - timp: 0.002917766571044922, status: sortat
+
+test 3: 9999 numere mai mici decat 999941
+Sortare nativa - timp: 0.0020017623901367188
+Bubble sort - timp: 16.262847423553467, status: sortat
+Count sort - timp: 0.0, status: nesortat
+Merge sort - timp: 0.038046836853027344, status: sortat
+Quick sort cu pivot ales random - timp: 0.03407406806945801, status: sortat
+Radix sort in baza 10 - timp: 0.030002832412719727, status: sortat
+Radix sort in baza 2 - timp: 0.06093335151672363, status: sortat
+
+test 4: 9000 numere mai mici decat 999912
+Sortare nativa - timp: 0.002000570297241211
+Bubble sort - timp: 13.270915031433105, status: sortat
+Count sort - timp: 0.0, status: nesortat
+Merge sort - timp: 0.035982608795166016, status: sortat
+Quick sort cu pivot ales random - timp: 0.02999567985534668, status: sortat
+Radix sort in baza 10 - timp: 0.023998737335205078, status: sortat
+Radix sort in baza 2 - timp: 0.05107688903808594, status: sortat
+
+test 5: 9000 numere mai mici decat 99992
+Sortare nativa - timp: 0.002003192901611328
+Bubble sort - timp: 13.652512073516846, status: sortat
+Count sort - timp: 0.01102137565612793, status: sortat
+Merge sort - timp: 0.03623080253601074, status: sortat
+Quick sort cu pivot ales random - timp: 0.029562711715698242, status: sortat
+Radix sort in baza 10 - timp: 0.024016141891479492, status: sortat
+Radix sort in baza 2 - timp: 0.05427956581115723, status: sortat
+
+test 6: 5000 numere mai mici decat 190864228390000001
+Sortare nativa - timp: 0.0010225772857666016
+Bubble sort - timp: 4.128698110580444, status: sortat
+Count sort - timp: 0.0, status: nesortat
+Merge sort - timp: 0.01807880401611328, status: sortat
+Quick sort cu pivot ales random - timp: 0.015994787216186523, status: sortat
+Radix sort in baza 10 - timp: 0.01700901985168457, status: sortat
+Radix sort in baza 2 - timp: 0.02798938751220703, status: sortat
+
+test 7: 5000 numere mai mici decat 9001
+Sortare nativa - timp: 0.0
+Bubble sort - timp: 5.300134658813477, status: sortat
+Count sort - timp: 0.002999544143676758, status: sortat
+Merge sort - timp: 0.013999223709106445, status: sortat
+Quick sort cu pivot ales random - timp: 0.01122903823852539, status: sortat
+Radix sort in baza 10 - timp: 0.004930019378662109, status: sortat
+Radix sort in baza 2 - timp: 0.02459239959716797, status: sortat
+
+test 8: 20000 numere mai mici decat 69997744101
+Sortare nativa - timp: 0.005003213882446289
+Bubble sort - timp: 0.0, status: nesortat
+Count sort - timp: 0.0, status: nesortat
+Merge sort - timp: 0.07919645309448242, status: sortat
+Quick sort cu pivot ales random - timp: 0.06799960136413574, status: sortat
+Radix sort in baza 10 - timp: 0.06312060356140137, status: sortat
+Radix sort in baza 2 - timp: 0.11603689193725586, status: sortat
+
+test 9: 185821 numere mai mici decat 100000
+Sortare nativa - timp: 0.05498814582824707
+Bubble sort - timp: 0.0, status: nesortat
+Count sort - timp: 0.06599903106689453, status: sortat
+Merge sort - timp: 0.924790620803833, status: sortat
+Quick sort cu pivot ales random - timp: 0.7995662689208984, status: sortat
+Radix sort in baza 10 - timp: 0.261401891708374, status: sortat
+Radix sort in baza 2 - timp: 0.8889753818511963, status: sortat
+
+test 10: 288011 numere mai mici decat 9999966
+Sortare nativa - timp: 0.09789395332336426
+Bubble sort - timp: 0.0, status: nesortat
+Count sort - timp: 0.0019986629486083984, status: nesortat
+Merge sort - timp: 1.484034538269043, status: sortat
+Quick sort cu pivot ales random - timp: 1.3023698329925537, status: sortat
+Radix sort in baza 10 - timp: 0.952143669128418, status: sortat
+Radix sort in baza 2 - timp: 2.03460431098938, status: sortat
+
