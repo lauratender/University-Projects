@@ -3,6 +3,8 @@
 
 Jocul reprezinta o varianta digitala a jocului clasic Activity. Jocul se joaca in 2-4 echipe de minim 2 persoane. Echipele isi vor alege cate un nume. La fiecare tura echipele isi vor alege dificultatea cuvantului si vor primi cate un cuvant aleator. Daca membrii echipei au descoperit cuvantul, pionul echipei va avansa un numar de pozitii egal cu dificultatea. Prima echipa care ajunge la finish castiga jocul!
 
+![Game Picture](https://github.com/lauratender/UniversityProjects/blob/master/Programare%20orientata%20pe%20obiecte/Activity/GamePic.PNG?raw=true)
+
 ## Cerinte
 
 * Interfața grafica 
