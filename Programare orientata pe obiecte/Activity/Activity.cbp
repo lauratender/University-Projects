@@ -54,28 +54,17 @@
 		<Linker>
 			<Add directory="$$(SFMLDirectory)lib" />
 		</Linker>
-		<Unit filename="Cuvinte.cpp" />
-		<Unit filename="Cuvinte.h" />
-		<Unit filename="Echipa.cpp" />
-		<Unit filename="Echipa.h" />
-		<Unit filename="Game.cpp" />
-		<Unit filename="Game.h" />
-		<Unit filename="MyColors.cpp" />
-		<Unit filename="MyColors.h" />
-		<Unit filename="MyException.h" />
-		<Unit filename="MyPictures.cpp" />
-		<Unit filename="MyPictures.h" />
-		<Unit filename="Pion.cpp" />
-		<Unit filename="Pion.h" />
-		<Unit filename="ResourceCointainer.cpp" />
-		<Unit filename="ResourceContainer.h" />
-		<Unit filename="Resources.h" />
-		<Unit filename="Tabla.cpp" />
-		<Unit filename="Tabla.h" />
-		<Unit filename="TextAfisat.cpp" />
-		<Unit filename="TextAfisat.h" />
-		<Unit filename="casute.cpp" />
-		<Unit filename="casute.h" />
+		<Unit filename="headers/Casute.h" />
+		<Unit filename="headers/Cuvinte.h" />
+		<Unit filename="headers/Echipa.h" />
+		<Unit filename="headers/Game.h" />
+		<Unit filename="headers/MyException.h" />
+		<Unit filename="headers/MyPictures.h" />
+		<Unit filename="headers/Pion.h" />
+		<Unit filename="headers/ResourceContainer.h" />
+		<Unit filename="headers/Resources.h" />
+		<Unit filename="headers/Tabla.h" />
+		<Unit filename="headers/TextAfisat.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sfml-audio-2.dll" />
 		<Unit filename="sfml-audio-d-2.dll" />
@@ -87,6 +76,15 @@
 		<Unit filename="sfml-system-d-2.dll" />
 		<Unit filename="sfml-window-2.dll" />
 		<Unit filename="sfml-window-d-2.dll" />
+		<Unit filename="src/Casute.cpp" />
+		<Unit filename="src/Cuvinte.cpp" />
+		<Unit filename="src/Echipa.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/MyPictures.cpp" />
+		<Unit filename="src/Pion.cpp" />
+		<Unit filename="src/ResourceCointainer.cpp" />
+		<Unit filename="src/Tabla.cpp" />
+		<Unit filename="src/TextAfisat.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
