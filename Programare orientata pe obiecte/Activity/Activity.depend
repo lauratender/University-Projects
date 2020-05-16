@@ -935,13 +935,13 @@
 1589632630 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\casute.cpp
 	"Casute.h"
 
-1589632625 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\casute.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\casute.h
 	<SFML/Graphics.hpp>
 
 1588532946 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\cuvinte.cpp
 	"Cuvinte.h"
 
-1588536666 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\cuvinte.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\cuvinte.h
 	<SFML/Graphics.hpp>
 	<time.h>
 	<iostream>
@@ -950,23 +950,23 @@
 1589632690 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\echipa.cpp
 	"Echipa.h"
 
-1589631077 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\echipa.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\echipa.h
 	"Pion.h"
 	<SFML/Graphics.hpp>
 	<string>
 
-1589458161 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\pion.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\pion.h
 	"Tabla.h"
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1589632659 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\tabla.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\tabla.h
 	"Casute.h"
 
-1589633974 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\game.cpp
-	"Game.h"
+1589644208 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\game.cpp
+	"headers/Game.h"
 
-1588801557 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\game.h
+1589643920 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\game.h
 	"ResourceContainer.h"
 	"Echipa.h"
 	"Cuvinte.h"
@@ -978,7 +978,7 @@
 	"Resources.h"
 	<SFML/Graphics.hpp>
 
-1588627084 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\resources.h
+1589643955 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\resources.h
 	"TextAfisat.h"
 	"MyPictures.h"
 	<SFML/Graphics.hpp>
@@ -986,11 +986,11 @@
 	<map>
 	<string>
 
-1589633987 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\textafisat.h
+1589644000 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\textafisat.h
 	<SFML/Graphics.hpp>
 	<string>
 
-1588541238 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\mypictures.h
+1589644012 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\mypictures.h
 	<SFML/Graphics.hpp>
 	<iostream>
 
@@ -1016,11 +1016,99 @@
 1589632727 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\textafisat.cpp
 	"TextAfisat.h"
 
-1588801646 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\main.cpp
-	"Game.h"
+1589643763 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\main.cpp
+	"headers/Game.h"
 	<SFML/Graphics.hpp>
 
-1588803615 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\myexception.h
+1589644134 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\myexception.h
+	<iostream>
+	<exception>
+
+1589646387 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\game.h
+	"ResourceContainer.h"
+	"Echipa.h"
+	"Cuvinte.h"
+	"Tabla.h"
+	<chrono>
+	<memory>
+
+1589633964 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\resourcecontainer.h
+	"Resources.h"
+	<SFML/Graphics.hpp>
+
+1588627084 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\resources.h
+	"TextAfisat.h"
+	"MyPictures.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<map>
+	<string>
+
+1589633987 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\textafisat.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1588541238 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\mypictures.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1589631077 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\echipa.h
+	"Pion.h"
+	<SFML/Graphics.hpp>
+	<string>
+
+1589458161 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\pion.h
+	"Tabla.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1589646817 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\tabla.h
+	"Casute.h"
+
+1589632625 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\casute.h
+	<SFML/Graphics.hpp>
+
+1588536666 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\cuvinte.h
+	<SFML/Graphics.hpp>
+	<time.h>
+	<iostream>
+	<fstream>
+
+1589645038 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\casute.cpp
+	"../headers/Casute.h"
+
+1589646178 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\cuvinte.cpp
+	"../headers/Cuvinte.h"
+
+1589645073 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\echipa.cpp
+	"../headers/Echipa.h"
+
+1589646371 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\game.cpp
+	"../headers/Game.h"
+
+1589645193 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\mycolors.cpp
+	"../headers/MyColors.h"
+
+1588292038 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\mycolors.h
+	<SFML/Graphics.hpp>
+
+1589646115 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\pion.cpp
+	"../headers/Pion.h"
+
+1589645228 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\tabla.cpp
+	"../headers/Tabla.h"
+
+1589645236 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\mypictures.cpp
+	"../headers/MyPictures.h"
+
+1589645243 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\textafisat.cpp
+	"../headers/TextAfisat.h"
+
+1589646103 source:d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\src\resourcecointainer.cpp
+	"../headers/ResourceContainer.h"
+	"../headers/MyException.h"
+
+1588803615 d:\my documents\fmi\anul i\sem ii\programare orientata pe obiecte\proiect activity\activity\headers\myexception.h
 	<iostream>
 	<exception>
 
