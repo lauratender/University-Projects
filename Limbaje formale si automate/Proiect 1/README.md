@@ -6,7 +6,7 @@ b) AFN: Aceeasi cerinta aplicata unui un automat nedeterminist;
 
 c) Generarea celor mai mici 100 de cuvinte acceptate de automat.
 
-De asemenea cerinta subpunctului b) poate fi verificata pe platforma Infoarena, problema nfa: www.infoarena.ro/problema/nfa.
+De asemenea cerinta subpunctului b) poate fi verificata pe platforma Infoarena, problema nfa: www.infoarena.ro/problema/nfa. Solutia mea poate fi gasita aici https://infoarena.ro/job_detail/2588501.
 
 *Despre rezolvare*
 
