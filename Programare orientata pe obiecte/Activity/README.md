@@ -139,6 +139,7 @@ in "Resources.h"
    ```
    
    * Smart pointers 
+   
   in "Game.h"
   ```cpp
   std::vector<std::shared_ptr<Echipa>> echipe;
