@@ -6,6 +6,8 @@ int main()
 {
 
     sf::RenderWindow window(sf::VideoMode(712, 949), "Activity game");
+    window.setFramerateLimit(30);
+
     sf::Event event;
     state gameState = TEAM_NUMBER;
 

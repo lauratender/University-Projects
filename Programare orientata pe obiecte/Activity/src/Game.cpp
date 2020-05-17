@@ -80,7 +80,7 @@ void Game::GetTeamNames(int character_code)
     window.draw(resourceContainer->Texts.getResource("inputNume")->text);
     if(character_code == 13)
     {
-        if(Echipa::getNumberOfTeams() < currentTeamNumber && strNume != "")
+        if(Echipa::getNumberOfTeams() < currentTeamNumber && strNume != "" && strNume != "\n")
         {
             try
             {
