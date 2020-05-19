@@ -1,7 +1,0 @@
-Culori
-
-negru: 210124
-alb: FFEEDB
-maro: A57F60
-verde: 9ABCA7
-roz: E4B1AB
