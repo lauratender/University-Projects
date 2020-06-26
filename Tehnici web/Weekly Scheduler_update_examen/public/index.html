@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8f2dcd945c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weekly Scheduler </title>
+</head>
+
+<body>
+    <header>  </header>
+    <div id="myModal" class="modal">
+
+    <div class="modal-content">
+        
+        <div class = 'Intro' id = 'Intro'>
+            <p>Already have an account?</p>
+            <button type="button" id="LoginButton" class="buttonLog"> Login</button>
+            <p>Don't have an account?</p>
+            <button type="button" id="RegisterButton" class="buttonReg"> Register </button>
+        </div>
+        <div id = 'LoginFields' class = 'LoginInfo'>
+            <p>Login</p>
+            <label for="formEmail" class='emailLabel'>Email</label>
+            <input type="emai" name="email" id="formEmail" autocomplete="off" required>
+            <br> <br>
+            <label for="formPassword" class='passwordLabel'>Password</label>
+            <input type="password" name="password" id="formPassword" autocomplete="off" required>
+            <br> <br>
+            <button type="button" id="sendLogInfo" > Login </button>
+            <button type="button" id="backLog"> Back </button>
+        </div>
+
+        <div id = 'RegisterFields' class = 'RegisterInfo'>
+            <p>Register</p>
+            <label for="formName" class='nameLabel'>Name</label>
+            <input type="text" name="nameLabel" id="formName" autocomplete="off" required>
+            <br> <br>
+            <label for="formDate" class = 'dateLabel'>Birth Day</label>
+            <input type="text" name="birthDate" id="formDate" autocomplete="off" required>
+            <br> <br>
+            <label for="formRegEmail" class='emailLabel'>Email</label>
+            <input type="email" name="email" id="formRegEmail" autocomplete="off" required>
+            <br><br>
+            <label for="formRegPassword" class='passwordLabel'>Password</label>
+            <input type="password" name="password1" id="formRegPassword" autocomplete="off" required>
+            <br><br>
+            <label for="formRegPassword2" class='passwordLabel'>Confirm password</label>
+            <input type="password" name="password2" id="formRegPassword2" autocomplete="off" required>
+            <br>
+            <button type="button" id="sendRegInfo" > Register </button>
+            <button type="button" id="backReg"> Back </button>
+        </div>
+        
+    </div>
+
+    </div>
+
+    <div class = 'biggestContainer'>
+    <h1 id = 'title' class = "title"> </h1>
+    <time id = "time" class = "time"></time>
+    <br>
+        <div>
+            <span class="important"><i class="fas fa-star" id = "starImportant"></i>Important Activities</span>
+            <br><br>
+            <div id = "important"></div>
+        </div>
+    <br> <br>
+    <div class="gridContainer">
+    
+            <div class = 'addContainer'>
+                <h2>Add new activity</h2>
+                <div>
+                    <div class = "addDay formContainer">
+                        <label for="days" class='formLabel'>Day:</label>
+                        <select id="days" class='add'required>
+                        <option value="monday" >Monday</option>
+                        <option value="tuesday">Tuesday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="thursday">Thursday</option>
+                        <option value="friday">Friday</option>
+                        <option value="saturday">Saturday</option>
+                        <option value="sunday">Sunday</option>
+                        </select>
+                    </div>
+                    <div class = "addHour formContainer">
+                        <label for="formHour" class='formLabel'>Hour:</label>
+                        <input type="time" name="hour" id="formHour" autocomplete="off"  class="add" required>
+                    </div>
+                    <div class = "addActivity formContainer">
+                        <label for="formActivity" class='formLabel'>Name:</label>
+                        <input type="text" name="activity" id="formActivity" autocomplete="off"  class="add" required>
+                        <button type="button" id="addButton" class="buttonAdd"> Add </button>
+                    </div>
+                </div>
+            </div>
+
+            <section class='dayOfWeek1_mic' id='mondaySection'>
+                <h2>Monday</h2>
+                <div id = "monday"></div>
+            </section>
+            <section class="dayOfWeek2_mic">
+                <h2>Tuesday</h2>
+                <div id = "tuesday"></div>
+            </section>
+
+            <section class="dayOfWeek1_mic">
+                <h2>Wednesday</h2>
+                <div id = "wednesday"></div>
+            </section>
+            <section class='dayOfWeek2_mic' id='thursdaySection'>
+                <h2>Thursday</h2>
+                <div id = "thursday"></div>
+            </section>
+
+            <section class="dayOfWeek1_mic" id='fridaySection'>
+                <h2>Friday</h2>
+                <div id = "friday"></div>
+            </section>
+
+            <section class="dayOfWeek2_mic">
+                <h2>Saturday</h2>
+                <div id = "saturday"></div>
+            </section>
+
+            <section class="dayOfWeek1_mic">
+                <h2>Sunday</h2>
+                <div id = "sunday"></div>
+            </section>
+    </div>
+        <footer> </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

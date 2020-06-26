@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=IM+Fell+French+Canon&family=Source+Serif+Pro&display=swap');
+/*
+font-family: 'Allura', cursive;
+font-family: 'IM Fell French Canon', serif;
+font-family: 'Source Serif Pro', serif;
+*/
+/* colors
+    maro: 7D4F50 -- side bar
+    alb: EDD8CF --fundal
+    roz: FFBEB6 
+    verde: 8FC0A9
+    gri: 515251 --text
+    gri-roz: 218, 198, 198 --text side-bar
+*/
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    color: #515251;
+    background-color: #EDD8CF;
+    font-size: 15pt;
+    overflow-x: hidden; 
+}
+/* ------------------------ inactivity div ------------------------*/
+#inactivity
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background-color: #7D4F50;
+    color: #EDD8CF;
+    text-align: center;
+    font-size: 30pt;
+}
+
+/* -------------------        login modal            ----------------*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  .LoginInfo{
+    display: none;
+  }
+  .RegisterInfo{
+    display: none;
+  }
+  
+/* -------------------        sidebar            ----------------*/
+header{
+    background-color: #7D4F50;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    display: block;
+    box-shadow: inset -5px 0px 7px 0px #977374;
+}
+.headerButtons
+{
+    background-color: rgb(218, 198, 198);
+    color: #7D4F50;
+    display: block;
+    position: relative;
+}
+#logOutButton{
+    left: 40%;
+}
+#getAge{
+    left: 25%;
+}
+#stop{
+    display: block;
+    position: relative;
+    left: 35%;
+    top: 15%;
+}
+.inputNume{
+    background-color: rgb(218, 198, 198);
+    color: #7D4F50;
+    width: 60%;
+}
+.name{
+    font-family: 'IM Fell French Canon', serif;
+    color: rgb(218, 198, 198);
+    display: block;
+    position: relative;
+    top: 12%;
+}
+.addName{
+    display: block;
+    position: relative;
+    left: 13%;
+    top: 13%;
+}
+.Name{
+    text-align: center;
+    color: rgb(218, 198, 198);
+    display: block;
+    position: relative;
+    top: 10%;
+}
+#ageDiv{
+    color: rgb(218, 198, 198);
+    display: block;
+    position: relative;
+    top: 14%;
+    text-align: center;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.biggestContainer{
+    position: absolute;
+    width: 80%;
+    right: 0;
+}
+
+.title{
+    font-family:  'Allura', cursive;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+.time {
+    position: absolute;
+    top: 130px;
+    right: 12%;
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1.3em;
+}
+
+/*       -------------------------    important       ------------------------- */
+
+.important {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1.5em;
+    position: relative;
+    left: 10%;
+}
+h2, .subtitle{
+    font-weight: normal;
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+#important{
+    position: relative;
+    left: 3%;
+}
+.gridForImportant{
+    display: grid;
+    grid-template-columns: 11% 5.5% 75%;
+}
+.textImportant{
+    position: relative;
+    left: 3%;
+}
+
+/* -------------------------------------------------------- ------------------------------ */
+
+.gridContainer{
+    position: relative;
+    display: grid;
+}
+
+select, input{
+    color: #515251;
+    background-color: rgb(255, 236, 233); 
+}
+
+button{
+    color: #515251;
+    background-color: rgb(255, 236, 233); 
+    cursor: pointer;
+}
+/* --------------------------------       add     ----------------------------------- */
+
+.addContainer{
+    background-color: #8FC0A9;
+    display: block;
+    box-shadow: inset 0px 0px 7px 2px #9ECDB8;
+}
+
+.formContainer{
+    display: grid;
+    grid-template-columns: 35% 45%;
+    grid-column-gap: 10%;
+    grid-row-gap: 5%;
+    margin: 3%;
+}
+#starImportant{
+    color:#FF7B9C;
+}
+.formLabel{
+    display: block;
+    margin-left: 20%;
+}
+
+.add{
+    text-decoration: none;
+    justify-self: start;
+}
+.buttonAdd {
+    display: block;
+    margin-left: 20%;
+}
+
+/* -------------------------------------------------          Zile          ---------------------------- */
+
+.dayOfWeek1_mic{
+    background-color: #FFBEB6;
+    display: block;
+    box-shadow: inset 0px 0px 7px 2px #FFD2CA;
+}
+.dayOfWeek2_mic{
+    background-color: #8FC0A9;
+    display: block;
+    box-shadow: inset 0px 0px 7px 2px #9ECDB8;
+}  
+
+.dayGrid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-bottom: 2%;
+}
+.ore{
+    justify-self: center;
+}
+.edit{
+    grid-column-start: 2;
+}
+.editInput{
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+footer{
+    text-align: center;
+}
+
+/* ----------------------------------------------       media           ----------------------------------- -----*/
+
+@media (min-width: 1280px) {
+    
+    .gridContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .addContainer{
+        grid-column-start: 2;
+    }
+    #mondaySection{
+        grid-row-start: 1;
+    }
+    #thursdaySection{
+        background-color: #FFBEB6;
+        box-shadow: inset 0px 0px 7px 2px #FFD2CA;
+    }
+    #fridaySection{
+        background-color: #8FC0A9;
+        box-shadow: inset 0px 0px 7px 2px #9ECDB8;
+    }
+}
+@media (max-width: 1280px)
+{
+    body{
+        font-size: 12.5pt;
+    }
+    .editInput{
+        margin-bottom: 1.75%;
+        margin-top: 1.75%;
+    }
+    .important {
+        left: 13%;
+    }
+    .time{
+        top: 110px;
+    }
+}
+@media (max-width: 768px){
+
+    body{
+        font-size: 11pt;
+    }
+
+    header{
+        position: absolute;
+        width: 100%;
+        height: 35px;
+        top: 0%;
+    }
+    .logOut{
+        display: inline-block;
+        position: absolut;
+        left: 80%;
+    }
+    .Name{
+        position: absolute;
+        font-size: 1.3em;
+        text-align: left;
+        display: inline-block;
+        left: 5%;
+        top: 2%;
+    }
+    .addName{
+        display: inline-block;
+        position: absolute;
+        left: 70%;
+    }
+    .inputNume{
+        width: 35%;
+    }
+
+    .biggestContainer{
+        top: 8%;
+        left: 0%;
+        width: 100%;
+    }
+    .title{
+        font-size: 2.8em;
+    }
+    .time{
+        right: 6%;
+        top: 80px;
+    }
+    .important{
+        left: 5%;
+        font-size: 1.35em;
+    }
+    .gridForImportant{
+        grid-template-columns: 17% 8% 73%;
+    }
+    h2, .subtitle{
+        font-size: 1.3em;
+    }
+    .dayGrid{
+        grid-template-columns: 20% 50% 30%;
+    }
+}
